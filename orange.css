@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header nav{
+   display: flex;
+  
+  
+}
+
+    
+.kok img{
+    width: 1471px;
+  
+}
+header ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    
+   
+
+}
+ul img{
+    margin-left: 250px;
+    transition: width 2s, height 2s, transform 2s;
+}
+ul li{
+    margin-left: 10px;
+    padding-left: 40px;
+    
+    
+    
+}
+header nav ul li a{
+    display: block;
+    padding: 10PX 20px;
+    
+    text-decoration: none;
+}
+
+ul p{
+    color: var(--Orange, #D40);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+header ul li a:active,a:hover{
+
+}
+.box1{
+    display: flex;
+    margin: 20px 300px 20px;
+ 
+}
+.box1 .ko{
+    width: 186px;
+    height: 265px;
+    background: #FFF;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.50);
+    margin: 20px;
+   
+}
+.ko p{
+    color: var(--Orange, #D40);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px; /* 158.333% */
+    margin: 30px;
+    border: 2px solid red;
+    transform: translate(10px);
+}
+.ko img{
+    width: 74px;
+    height: 65px;
+    flex-shrink: 0;
+    margin: 14px 46px;
+    
+}
+hr{
+   border: 1px solid red;
+}
+.ko button{
+    width: 146px;
+    height: 29px;
+    flex-shrink: 0;
+    background: var(--Orange, #D40);
+    margin: 14px;
+    border: 2px solid red;
+
+}
+
+.box2{
+    display: flex;
+    margin-left: 310px;
+}
+.lo h2{
+    color: #5E5E5E;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: scale(0px);
+}
+.lo p{
+    width: 554px;
+    height: 60px;
+    flex-shrink: 0;
+    animation-name: po 2s ;
+}
+.po{
+    display: flex;
+    margin: 10px;
+}
+.po p{
+    color: var(--Orange, #D40);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    width: 110px;
+    height: 43px;
+    flex-shrink: 0;
+    margin: 0px 10px;
+}
+.po img{
+    width: 48px;
+    height: 47px;
+    flex-shrink: 0;
+}
+.lo button{
+    width: 146px;
+    height: 29px;
+    flex-shrink: 0;
+    background: var(--Orange, #D40);
+    margin-bottom: 70px;
+    transform: rotate3d(0deg);
+}
+footer{
+    max-width: 1650px;
+    height: 183px;
+    flex-shrink: 0;
+    background: var(--Orange, #D40);
+    display: flex;
+    margin: px;
+    
+    
+}
+footer h2{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: space-between;
+    
+}
+footer .yu{
+    margin: 50px 250px 20px;
+}
+footer P{
+    color: #FFF;
+}
+
+.ko:hover button{
+    transform:scale(1.2) ;
+    transition: 3c;
+}
+.ko:hover p{
+    transform: scale(1,2);
+    transition: 3c;
+}
+ul:hover img{
+    transform: rotate(360deg);
+    transition: 2s;
+    width: 50px;
+    height: 50px;
+    
+}
+.ko:hover img{
+    transform: rotate(360deg);
+    transition: 2s;
+}
+.lo:hover h2{
+    transition: 2s;
+    transform: scale(1.3)
+  
+}
+ul:hover li{
+    font-size: 20px;
+    transform: translate(1px);
+    transition: 3s;
+    
+}
+@keyframes po{
+    from{
+        text color: red;
+    }
+    to{
+        text color: blue;
+    }
+}
+.lo:hover button{
+    transform: translate(180PX);
+    transition: 2s;
+}
+    
+    
+
+
